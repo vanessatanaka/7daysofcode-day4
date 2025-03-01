@@ -1,8 +1,10 @@
 // 7Daysofcode - Dia 4
 
 // Variáveis
-let numero = 7;
+let numero = Math.floor(Math.random() * 11);
 let tentativa = 3;
+
+alert(numero);
 
 // Chute do número com 3 tentativas
 while(tentativa > 0) {
