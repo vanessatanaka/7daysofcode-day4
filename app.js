@@ -4,8 +4,6 @@
 let numero = Math.floor(Math.random() * 11);
 let tentativa = 3;
 
-alert(numero);
-
 // Chute do número com 3 tentativas
 while(tentativa > 0) {
   let chute = parseInt(prompt(`Qual o valor que você deseja chutar entre 0 e 10?`));
